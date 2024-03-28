@@ -33,8 +33,6 @@ function removeLastCat() {
 }
 
 function removeFirstCat(){
-    // removeFirstCat = cats.slice(0, 0)
-    // return removeFirstCat
     let [, ...removeFirstCat] = cats;
     return removeFirstCat
 }
