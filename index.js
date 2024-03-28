@@ -29,10 +29,10 @@ function prependCat() {
 
 function removeLastCat() {
   removeLastCat = cats.slice(0, -1);
-  return removeLastCat
+  return removeLastCat;
 }
 
-function removeFirstCat(){
-    let [, ...removeFirstCat] = cats;
-    return removeFirstCat
+function removeFirstCat() {
+  let [, ...removeFirstCat] = cats;
+  return removeFirstCat;
 }
